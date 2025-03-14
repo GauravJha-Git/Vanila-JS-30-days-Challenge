@@ -15,7 +15,7 @@ body{
     display: flex;
     gap: 30px;
 }
-.keys{
+.key{
     height: 50px;
     width: 50px;
     border: 2px solid white;
@@ -24,9 +24,10 @@ body{
     text-align: center;
     margin-top: 5px;
     font-size: 25px;
+    transition: all .07s ease;
     
 }
-.playling{
+.playing{
     background-color: #4CAF50;
     color: black;
     border: 2px dashed yellow;
