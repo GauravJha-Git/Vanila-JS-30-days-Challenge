@@ -1,13 +1,13 @@
 :root {
-    --base: #ffc600;
-    --spacing: 10px;
-    --blur: 10px;
+    --base: #ffc600;  /*variable to change color*/
+    --spacing: 10px;  /*variable to change spacing*/
+    --blur: 10px;  /*variable to change blur rate*/
   }
 
   img {
-    padding: var(--spacing);
-    background: var(--base);
-    filter: blur(var(--blur));
+    padding: var(--spacing);  /*changing the padding of img box to increase or decrease spacing*/
+    background: var(--base);/*changing the background of img box acc to the color selected*/
+    filter: blur(var(--blur));/*changing the blur rate*/
   }
 
   .hl {
